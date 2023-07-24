@@ -1,5 +1,6 @@
 "use client";
-
+// サインアウト用のボタンコンポーネント
+// signOut()を実行すると、/api/auth/signout にリクエストを送信し、サインアウトする
 import { signOut } from "next-auth/react";
 
 const SignOut = () => {

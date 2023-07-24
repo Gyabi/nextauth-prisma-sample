@@ -1,4 +1,5 @@
 "use client";
+// 認証していない場合に表示をブロックするためのコンポーネント
 import { usePathname, useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
 import React, { useEffect } from "react";
